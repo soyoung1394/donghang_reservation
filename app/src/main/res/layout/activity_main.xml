@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_reservation"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fff"
+    tools:context="sinabro.reservation.MainActivity">
+
+    <fragment
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:id="@+id/map"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+    <!--<EditText-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="100dp"-->
+    <!--android:id="@+id/location"-->
+    <!--android:background="@drawable/textview"/>-->
+    <!--<Button-->
+    <!--android:id="@+id/button3"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:onClick="PlacePicker"-->
+    <!--android:text="PlacePicker"-->
+    <!--android:layout_weight="0.3"/>-->
+
+    <!--<EditText-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="100dp"-->
+    <!--android:id="@+id/time"-->
+    <!--android:background="@drawable/textview"/>-->
+    <!--<EditText-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="100dp"-->
+    <!--android:id="@+id/content"-->
+    <!--android:background="@drawable/textview"/>-->
+    <!--<Button-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="50dp"-->
+    <!--android:text="예약하기"-->
+    <!--android:background="@drawable/bg"/>-->
+</LinearLayout>
